@@ -695,7 +695,7 @@ NSString *const LLSimpleCameraErrorDomain = @"LLSimpleCameraErrorDomain";
     focusBox.cornerRadius = 5.0f;
     focusBox.bounds = CGRectMake(0.0f, 0.0f, 70, 60);
     focusBox.borderWidth = 3.0f;
-    focusBox.borderColor = [UIColor colorWithRed:0.415  green:0.168 blue:0.804 alpha:1.0];
+    focusBox.borderColor = [[UIColor colorWithRed:0.415  green:0.168 blue:0.804 alpha:1.0] CGColor];
     focusBox.opacity = 0.0f;
     [self.view.layer addSublayer:focusBox];
     
